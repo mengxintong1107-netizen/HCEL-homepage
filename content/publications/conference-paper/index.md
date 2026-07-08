@@ -20,11 +20,6 @@ featured: true
 hugoblox:
   ids:
     doi: ""
-links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: ""
 projects:
   - trustworthy-multimodal-ai
 slides: ""

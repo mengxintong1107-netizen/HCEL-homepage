@@ -20,9 +20,6 @@ featured: true
 hugoblox:
   ids:
     doi: ""
-links:
-  - type: pdf
-    url: ""
 projects:
   - decision-making-under-uncertainty
 slides: ""

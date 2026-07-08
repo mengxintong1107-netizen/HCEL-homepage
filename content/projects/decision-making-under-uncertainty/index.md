@@ -2,9 +2,6 @@
 title: Decision-Making Under Uncertainty
 date: 2026-04-20
 summary: Learning and planning algorithms for reliable decisions in complex engineering systems.
-links:
-  - type: site
-    url: ""
 tags:
   - Reinforcement Learning
   - Planning
