@@ -1,0 +1,404 @@
+.lab-people-shell {
+  min-height: calc(100vh - var(--navbar-height, 0px));
+  border-top: 4px solid #ff5b85;
+  background: #151419;
+  color: #f8fafc;
+}
+
+:root {
+  --lab-logo-bg: #142126;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+html,
+#page-bg {
+  background-color: var(--lab-logo-bg);
+}
+
+.page-header,
+#site-header,
+#site-header .navbar {
+  background: var(--lab-logo-bg);
+}
+
+.page-header,
+#site-header.header {
+  border: 0 !important;
+  box-shadow: none !important;
+  margin: 0;
+}
+
+.page-header {
+  background-color: var(--lab-logo-bg) !important;
+}
+
+body:has(#section-hero),
+body:has(#section-hero) .page-body,
+body:has(#section-hero) .page-footer {
+  background-color: var(--lab-logo-bg) !important;
+}
+
+#site-header .navbar-brand,
+#site-header .nav-link,
+#site-header .theme-toggle,
+#site-header [data-search-toggle] {
+  color: #f8fafc;
+}
+
+#site-header .nav-link.active,
+#site-header .nav-link:hover {
+  color: #e9c46a;
+}
+
+body:has(.lab-people-shell) {
+  background: #151419;
+}
+
+body:has(.lab-people-shell) .page-header {
+  background: var(--lab-logo-bg);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body:has(.lab-people-shell) #site-header,
+body:has(.lab-people-shell) .navbar {
+  background: var(--lab-logo-bg);
+}
+
+body:has(.lab-people-shell) .navbar-brand,
+body:has(.lab-people-shell) .nav-link,
+body:has(.lab-people-shell) .theme-toggle,
+body:has(.lab-people-shell) [data-search-toggle] {
+  color: #f8fafc;
+}
+
+body:has(.lab-people-shell) .nav-link.active,
+body:has(.lab-people-shell) .nav-link:hover {
+  color: #ff5b85;
+}
+
+body:has(.lab-people-shell) .page-body {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body:has(.lab-people-shell) .page-footer {
+  margin-top: 0;
+  background: #151419;
+  color: #b4aea8;
+}
+
+#site-header .navbar {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+  padding-left: max(3rem, calc((100vw - 1280px) / 2 + 3rem));
+  padding-right: max(3rem, calc((100vw - 1280px) / 2 + 3rem));
+}
+
+#site-header .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.navbar-brand svg {
+  display: block;
+  width: auto;
+  height: 118px;
+  max-width: min(560px, 66vw);
+}
+
+@media (max-width: 768px) {
+  .navbar-brand svg {
+    height: 76px;
+    max-width: 76vw;
+  }
+}
+
+.lab-home-hero .hero-block-container > .relative > .mx-auto {
+  max-width: 1080px !important;
+}
+
+#section-hero {
+  background-color: var(--lab-logo-bg) !important;
+}
+
+#section-hero .home-section-bg,
+.lab-home-hero .home-section-bg {
+  background-color: var(--lab-logo-bg) !important;
+  background-image:
+    linear-gradient(135deg, rgba(42, 157, 143, 0.12), transparent 36%),
+    linear-gradient(315deg, rgba(233, 196, 106, 0.1), transparent 32%),
+    linear-gradient(rgba(244, 241, 234, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(244, 241, 234, 0.045) 1px, transparent 1px);
+  background-size: auto, auto, 44px 44px, 44px 44px;
+  background-position: center, center, -1px -1px, -1px -1px;
+}
+
+#section-hero h1,
+.lab-home-hero h1 {
+  color: #f4f1ea !important;
+  font-size: clamp(3.4rem, 8vw, 6.25rem) !important;
+  line-height: 0.95 !important;
+  font-weight: 700 !important;
+}
+
+#section-hero .hero-block-container p,
+.lab-home-hero .hero-block-container p {
+  color: #b8c3c1 !important;
+  max-width: 980px !important;
+  margin-top: 1.45rem !important;
+  font-size: clamp(1.35rem, 2.3vw, 2rem) !important;
+  line-height: 1.35 !important;
+  font-style: italic;
+}
+
+#section-hero a,
+.lab-home-hero a {
+  color: #e9c46a;
+}
+
+#section-hero a:first-child,
+.lab-home-hero a:first-child {
+  color: #ffffff;
+}
+
+.dark .lab-home-hero .home-section-bg {
+  background-color: var(--lab-logo-bg) !important;
+}
+
+.dark .lab-home-hero h1 {
+  color: #f4f1ea !important;
+}
+
+.dark .lab-home-hero .hero-block-container p {
+  color: #b8c3c1 !important;
+}
+
+.dark .lab-home-hero a {
+  color: #e9c46a;
+}
+
+.dark .lab-home-hero a:first-child {
+  color: #ffffff;
+}
+
+.lab-people-page {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 3.4rem 2rem 5rem;
+}
+
+.lab-people-page h1 {
+  margin-bottom: 2rem;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.05;
+  font-weight: 700;
+}
+
+.lab-people-section {
+  margin: 0 0 4.5rem;
+}
+
+.lab-people-section h2 {
+  position: relative;
+  margin: 0 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-size: clamp(1.8rem, 3vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.lab-people-section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 76px;
+  height: 2px;
+  background: #ff5b85;
+}
+
+.lab-people-section h3 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.lab-section-note {
+  margin: -1.25rem 0 2.3rem;
+  color: #b4aea8;
+  font-size: 1.05rem;
+}
+
+.lab-people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(165px, 185px));
+  gap: 2.8rem 1.6rem;
+}
+
+.lab-people-grid--faculty {
+  grid-template-columns: repeat(auto-fill, minmax(175px, 190px));
+}
+
+.lab-people-grid--phd {
+  grid-template-columns: repeat(auto-fill, minmax(165px, 185px));
+}
+
+.lab-people-grid--master {
+  grid-template-columns: repeat(auto-fill, minmax(165px, 185px));
+}
+
+.lab-people-grid--undergrads {
+  grid-template-columns: repeat(auto-fill, minmax(155px, 175px));
+}
+
+.lab-person {
+  text-align: center;
+  max-width: 185px;
+}
+
+.lab-people-section--undergrads .lab-person {
+  max-width: 175px;
+}
+
+.lab-person img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 12px;
+  background: #24232b;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.lab-person img.lab-person-photo--lower {
+  object-position: center 18%;
+}
+
+.lab-person img.lab-person-photo--slightly-lower {
+  object-position: center 28%;
+}
+
+.lab-person-name {
+  margin: 1.05rem 0 0.45rem;
+  color: #ffffff;
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.lab-person-role {
+  margin: 0;
+  color: #b4aea8;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.lab-person-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.lab-person-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border: 0;
+  color: #b4aea8;
+  text-decoration: none;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.lab-person-links svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  stroke-width: 2.2;
+}
+
+.lab-person-links a:hover {
+  color: #ff7295;
+  transform: translateY(-1px);
+}
+
+.lab-alumni {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.lab-alumni td {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid rgb(226 232 240);
+  vertical-align: top;
+}
+
+.lab-alumni td:first-child {
+  width: 28%;
+  font-weight: 600;
+}
+
+.lab-alumni td:nth-child(2) {
+  width: 32%;
+  color: rgb(82 82 91);
+}
+
+.dark .lab-alumni td {
+  border-bottom-color: rgb(63 63 70);
+}
+
+.dark .lab-alumni td:nth-child(2) {
+  color: rgb(212 212 216);
+}
+
+@media (max-width: 640px) {
+  .lab-people-page {
+    padding: 2.5rem 1.25rem 4rem;
+  }
+
+  .lab-people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.4rem 1.2rem;
+  }
+
+  .lab-people-grid--faculty,
+  .lab-people-grid--phd,
+  .lab-people-grid--master,
+  .lab-people-grid--undergrads {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lab-person {
+    max-width: none;
+  }
+
+  .lab-alumni,
+  .lab-alumni tbody,
+  .lab-alumni tr,
+  .lab-alumni td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .lab-alumni tr {
+    padding: 0.65rem 0;
+    border-bottom: 1px solid rgb(226 232 240);
+  }
+
+  .lab-alumni td {
+    padding: 0.12rem 0;
+    border-bottom: 0;
+  }
+}

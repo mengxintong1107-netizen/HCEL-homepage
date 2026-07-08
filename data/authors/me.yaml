@@ -1,0 +1,71 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Jianzhuang Zhao
+  given: Jianzhuang
+  family: Zhao
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
+postnominals:
+  - PhD
+status:
+  icon: ""
+role: Faculty
+bio: |
+  Jianzhuang Zhao is a faculty member in the Human-centric Embodied Intelligence
+  Lab at Northwestern Polytechnical University. The lab develops machine
+  learning, perception, and interaction methods for embodied intelligent systems.
+
+affiliations:
+  - name: Northwestern Polytechnical University
+    url: https://www.nwpu.edu.cn/
+
+links:
+  - icon: at-symbol
+    url: mailto:lab@example.edu
+    label: Email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: brands/github
+    url: https://github.com/
+
+interests:
+  - Trustworthy AI
+  - Autonomous Systems
+  - Multimodal Perception
+  - Reinforcement Learning
+
+education:
+  - degree: PhD in Computer Science
+    institution: Your University
+    start: 2016-09-01
+    end: 2020-06-30
+
+experience:
+  - role: Faculty
+    org: Northwestern Polytechnical University
+    start: 2024-01-01
+    summary: |
+      Leading research on human-centric embodied intelligence.
+
+skills:
+  - name: Research Areas
+    items:
+      - label: Machine Learning
+        level: 5
+      - label: Computer Vision
+        level: 5
+      - label: Robotics
+        level: 4
+
+languages:
+  - name: English
+    level: 5
+    label: Professional
+  - name: Chinese
+    level: 5
+    label: Native
+
+awards: []

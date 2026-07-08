@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">HCEL refined heart badge logo</title>
+  <desc id="desc">A refined dark lab badge for Human-centric Embodied Intelligence Lab with a human, robot, and shared heart, without arm elements.</desc>
+  <defs>
+    <linearGradient id="refinedBadgeGrad" x1="68" y1="48" x2="322" y2="286" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9C46A"/>
+      <stop offset="0.48" stop-color="#2A9D8F"/>
+      <stop offset="1" stop-color="#EF476F"/>
+    </linearGradient>
+    <linearGradient id="refinedWordGrad" x1="420" y1="80" x2="806" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9C46A"/>
+      <stop offset="0.5" stop-color="#2A9D8F"/>
+      <stop offset="1" stop-color="#EF476F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" fill="#142126"/>
+  <g transform="translate(88 44)">
+    <path d="M144 10L264 78V214L144 282L24 214V78L144 10Z" fill="#1A2A30" stroke="url(#refinedBadgeGrad)" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M144 76C132 56 104 58 95 82C86 106 109 128 144 154C179 128 202 106 193 82C184 58 156 56 144 76Z" fill="#EF476F"/>
+    <path d="M95 176C95 155 112 139 133 139H155C176 139 193 155 193 176V221H95V176Z" fill="#22363D"/>
+    <circle cx="114" cy="145" r="20" fill="#E9C46A"/>
+    <path d="M84 215C90 189 101 178 114 178C127 178 138 189 144 215C136 224 126 228 114 228C102 228 92 224 84 215Z" fill="#E9C46A"/>
+    <rect x="144" y="158" width="72" height="54" rx="22" fill="#2A9D8F"/>
+    <circle cx="166" cy="185" r="6" fill="#142126"/>
+    <circle cx="194" cy="185" r="6" fill="#142126"/>
+    <path d="M166 200C174 206 186 206 194 200" fill="none" stroke="#142126" stroke-width="5" stroke-linecap="round"/>
+    <path d="M180 158V139" stroke="#2A9D8F" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="180" cy="135" r="6" fill="#2A9D8F"/>
+    <path d="M72 238H216" stroke="#E9C46A" stroke-width="8" stroke-linecap="round" opacity="0.92"/>
+    <path d="M95 249H193" stroke="#2A9D8F" stroke-width="5" stroke-linecap="round" opacity="0.82"/>
+  </g>
+  <g transform="translate(420 88)">
+    <text x="0" y="96" font-family="Arial Black, Inter, Arial, sans-serif" font-size="112" font-weight="900" fill="url(#refinedWordGrad)">HCEL</text>
+    <text x="3" y="157" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="730" fill="#F4F1EA">Human-centric Embodied Intelligence Lab</text>
+    <text x="4" y="211" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="500" fill="#B8C3C1">human values centered in embodied intelligence</text>
+  </g>
+</svg>

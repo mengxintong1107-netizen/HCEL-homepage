@@ -1,0 +1,109 @@
+hugoblox:
+  schema: "2.0"
+
+  identity:
+    name: "Human-centric Embodied Intelligence Lab"
+    organization: "Northwestern Polytechnical University"
+    type: organization
+    tagline: "Human-centered perception, learning, and interaction for embodied intelligence."
+    description: "The Human-centric Embodied Intelligence Lab is an English academic laboratory website built with HugoBlox Kit."
+    social:
+      twitter: ""
+
+  theme:
+    mode: system
+    pack: "default"
+    colors:
+      primary: "blue"
+      secondary: "emerald"
+      neutral: "slate"
+
+  typography:
+    pack: "academic"
+
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+    avatar_shape: rounded
+
+  header:
+    enable: true
+    style: navbar
+    show_logo: true
+    show_title: false
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+      text: "Join Us"
+      url: ""
+
+  footer:
+    style: minimal
+    language_switcher: false
+    text: "Built with HugoBlox Kit."
+
+  copyright:
+    notice: "Copyright {year} {name}. All rights reserved."
+    license:
+      type: custom
+      custom:
+        text: "All rights reserved"
+        url: ""
+
+  seo:
+    title: ""
+    ai:
+      allow:
+        - /
+      disallow: []
+      note: "Public laboratory profile, publications, news, and opportunities."
+      contact: "mailto:lab@example.edu"
+
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: false
+    citations:
+      style: ieee
+
+  search:
+    enable: true
+    suggestions:
+      - "publications"
+      - "research"
+      - "students"
+
+  comments:
+    enable: false
+    provider: ""
+
+  analytics:
+    google:
+      measurement_id: ""
+
+  verification:
+    google: ""
+    bing: ""
+    baidu: ""
+    yandex: ""
+    pinterest: ""
+    naver: ""
+
+  repository:
+    enable: false
+    url: ""
+    branch: main
+    content_dir: content
+
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
+    address_format: en-us

@@ -1,0 +1,19 @@
+{
+  "name": "intelligent-systems-lab-website",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "description": "English laboratory homepage built with HugoBlox Kit",
+  "scripts": {
+    "dev": "set PATH=%CD%\\node_modules\\.bin;C:\\Program Files\\nodejs;%PATH%&& set HUGO_CACHEDIR=%CD%\\.hugo_cache&& set GOPATH=%CD%\\.go&& hugo server --disableFastRender --ignoreCache --port 1414 --bind 127.0.0.1 --baseURL http://localhost:1414/",
+    "build": "set PATH=%CD%\\node_modules\\.bin;C:\\Program Files\\nodejs;%PATH%&& set HUGO_CACHEDIR=%CD%\\.hugo_cache&& set GOPATH=%CD%\\.go&& hugo --minify && pnpm run pagefind",
+    "pagefind": "pagefind --site public"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.10",
+    "pagefind": "^1.4.0",
+    "preact": "^10.27.2",
+    "tailwindcss": "^4.1.12"
+  }
+}
