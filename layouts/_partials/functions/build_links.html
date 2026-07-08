@@ -1,0 +1,47 @@
+{{/*
+  Local override for HugoBlox build_links.
+  The upstream module version can fail on GitHub Actions with Hugo 0.162
+  when SetInMap is called on a nil map. Keep this version small and stable:
+  render only non-empty author links and resolvable project relations.
+*/}}
+
+{{ $page := .page }}
+{{ $types := hugo.Data.link_types.types | default dict }}
+{{ $links := slice }}
+
+{{ with $page.Params.links }}
+  {{ range . }}
+    {{ $url := .url | default "" }}
+    {{ if $url }}
+      {{ $type := .type | default "custom" }}
+      {{ $typeData := index $types $type | default dict }}
+      {{ $links = $links | append (dict
+          "type" $type
+          "url" $url
+          "icon" (.icon | default (index $typeData "icon") | default "hero/link")
+          "labelKey" (index $typeData "label_i18n")
+          "label" (.label | default .name)
+          "contexts" (.contexts | default (slice "list" "page"))
+          "rel" .rel
+        ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ with $page.Params.projects }}
+  {{ range . }}
+    {{ with (site.GetPage (printf "projects/%s" .)) }}
+      {{ $type := "project" }}
+      {{ $typeData := index $types $type | default dict }}
+      {{ $links = $links | append (dict
+          "type" $type
+          "url" .RelPermalink
+          "icon" (index $typeData "icon" | default "hero/link")
+          "labelKey" (index $typeData "label_i18n")
+          "contexts" (slice "list" "page")
+        ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $links }}
