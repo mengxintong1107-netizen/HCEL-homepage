@@ -9,7 +9,7 @@ type: people
     <h2>Faculty</h2>
     <div class="lab-people-grid lab-people-grid--faculty">
       <div class="lab-person">
-        <img src="/people/jianzhuang-zhao.png" alt="Jianzhuang Zhao">
+        <img src="../people/jianzhuang-zhao.png" alt="Jianzhuang Zhao">
         <p class="lab-person-name">Jianzhuang Zhao</p>
         <p class="lab-person-role">Faculty<br>Northwestern Polytechnical University</p>
         <div class="lab-person-links">
@@ -25,7 +25,7 @@ type: people
     <p class="lab-section-note">Year means the year they entered the program.</p>
     <div class="lab-people-grid lab-people-grid--phd">
       <div class="lab-person">
-        <img class="lab-person-photo--slightly-lower" src="/people/xintong-meng.jpg" alt="Xintong Meng">
+        <img class="lab-person-photo--slightly-lower" src="../people/xintong-meng.jpg" alt="Xintong Meng">
         <p class="lab-person-name">Xintong Meng</p>
         <p class="lab-person-role">PhD Student (2026)</p>
         <div class="lab-person-links">
@@ -40,7 +40,7 @@ type: people
     <p class="lab-section-note">Year means the year they entered the program.</p>
     <div class="lab-people-grid lab-people-grid--master">
       <div class="lab-person">
-        <img src="/people/jinyu-he.jpg" alt="Jinyu He">
+        <img src="../people/jinyu-he.jpg" alt="Jinyu He">
         <p class="lab-person-name">Jinyu He</p>
         <p class="lab-person-role">Master Student (2026)</p>
         <div class="lab-person-links">
@@ -54,7 +54,7 @@ type: people
     <h2>Visitors and Undergrads</h2>
     <div class="lab-people-grid lab-people-grid--undergrads">
       <div class="lab-person">
-        <img class="lab-person-photo--lower" src="/people/huaicheng-zhu.jpg" alt="Huaicheng Zhu">
+        <img class="lab-person-photo--lower" src="../people/huaicheng-zhu.jpg" alt="Huaicheng Zhu">
         <p class="lab-person-name">Huaicheng Zhu</p>
         <p class="lab-person-role">Undergraduate Researcher</p>
         <div class="lab-person-links">
@@ -62,7 +62,7 @@ type: people
         </div>
       </div>
       <div class="lab-person">
-        <img src="/people/yunfan-wang.jpg" alt="Yunfan Wang">
+        <img src="../people/yunfan-wang.jpg" alt="Yunfan Wang">
         <p class="lab-person-name">Yunfan Wang</p>
         <p class="lab-person-role">Undergraduate Researcher</p>
         <div class="lab-person-links">
@@ -70,7 +70,7 @@ type: people
         </div>
       </div>
       <div class="lab-person">
-        <img class="lab-person-photo--lower" src="/people/qinghan-li.jpg" alt="Qinghan Li">
+        <img class="lab-person-photo--lower" src="../people/qinghan-li.jpg" alt="Qinghan Li">
         <p class="lab-person-name">Qinghan Li</p>
         <p class="lab-person-role">Undergraduate Researcher</p>
         <div class="lab-person-links">
