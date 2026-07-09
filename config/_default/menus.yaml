@@ -5,9 +5,6 @@ main:
   - name: People
     url: /people/
     weight: 20
-  - name: Publications
-    url: /publications/
-    weight: 30
   - name: News
     url: /news/
     weight: 50
